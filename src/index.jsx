@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { render } from 'react-dom';
 import Joke from './Joke';
 import './style.css';
@@ -98,6 +98,7 @@ const App = () => {
           text={joke.text}
           likes={joke.likes}
           dislikes={joke.dislikes}
+          key={joke.id}
         />
       ))}
     </>

@@ -2,17 +2,6 @@ import React from 'react';
 import './style.css';
 
 const Joke = ({userAvatar, userName, text, likes, dislikes}) => {
-  // const [up, setUp] = useState(0);
-  // const [down,setDown] = useState(0);
-
-
-  // const handleUpClick = () => {
-  //   setUp(up + 1);
-  // }
-
-  // const handleDownClick = () => {
-  //   setDown(down + 1);
-  // }
 
   return (
     <div className="container">
